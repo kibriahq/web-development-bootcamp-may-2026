@@ -1,3 +1,14 @@
+# Collab Tool
+
+Collab Tool is a real-time collaborative document editor. It combines a Next.js frontend, an Express/TypeScript backend, PostgreSQL persistence, and Hocuspocus/Yjs WebSocket synchronization so authenticated users can create, share, and co-edit rich text documents.
+
+![Collab Tool](./screenshot.png)
+
+## To The `MiftahCoding` Team
+I had selected to build a Next.js project. However, I went beyond the requirements 
+and built both frontend and backend. I used Next.js for the frontend, Node.js for 
+the backend, and PostgreSQL as the database with Prisma ORM.
+
 > [!NOTE]
 >This is not the main repository for this project. 
 >The original repository with full git history can be found here:
@@ -7,11 +18,6 @@
 > This project deployed on free hosting services may experience cold starts, leading to `initial load times of 5-10 seconds`. This is expected behavior for free-tier deployments.
 > And Sometimes, after `click a button it may take 2 or 3 seconds` to get a response, this is also expected due to the free-tier hosting and should not be considered a bug.
 
-# Collab Tool
-
-Collab Tool is a real-time collaborative document editor. It combines a Next.js frontend, an Express/TypeScript backend, PostgreSQL persistence, and Hocuspocus/Yjs WebSocket synchronization so authenticated users can create, share, and co-edit rich text documents.
-
-![Collab Tool](./screenshot.png)
 
 ## Live URL
 A live version of the app is available at:
