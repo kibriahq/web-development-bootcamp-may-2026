@@ -3,6 +3,10 @@
 >The original repository with full git history can be found here:
 >https://github.com/kibriahq/realtime-collab-tool
 
+> [!WARNING]
+> This project deployed on free hosting services may experience cold starts, leading to `initial load times of 5-10 seconds`. This is expected behavior for free-tier deployments.
+> And Sometimes, after `click a button it may take 2 or 3 seconds` to get a response, this is also expected due to the free-tier hosting and should not be considered a bug.
+
 # Collab Tool
 
 Collab Tool is a real-time collaborative document editor. It combines a Next.js frontend, an Express/TypeScript backend, PostgreSQL persistence, and Hocuspocus/Yjs WebSocket synchronization so authenticated users can create, share, and co-edit rich text documents.
