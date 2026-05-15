@@ -16,6 +16,7 @@ the backend, and PostgreSQL as the database with Prisma ORM.
 
 > [!WARNING]
 > This project deployed on free hosting services may experience cold starts, leading to `initial load times of 5-10 seconds`. This is expected behavior for free-tier deployments.
+> Specifically, the `frontend loads on time`, but the `backend may take time to wake up` and respond to the first request.
 > And Sometimes, after `click a button it may take 2 or 3 seconds` to get a response, this is also expected due to the free-tier hosting and should not be considered a bug.
 
 
